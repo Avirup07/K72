@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Lausanne-300";
+  src: url("/fonts/Lausanne-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lausanne-500";
+  src: url("/fonts/Lausanne-500.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+::selection {
+  color: #000000;
+  background-color: #D3FD50;
+}
+
+body {
+    background-color: #111;
+    font-family: Lausanne-300
+}
